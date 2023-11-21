@@ -8,7 +8,7 @@ export const Section = styled.section`
   align-items: center;
   justify-content: center;
   background-color: ${(props) => props.$bgColor};
-  padding: 0 60px;
+  padding: 60px 0;
   overflow: hidden;
 
   ${(props) => props.$portada && css`
@@ -16,20 +16,13 @@ export const Section = styled.section`
     background: linear-gradient(180deg, rgba(220,220,221,1) 0%, rgba(220,220,221,1) 54%, 
     rgba(208,208,210,1) 62%, rgba(208,208,210,1) 73%, rgba(244,244,244,1) 88%);
   `}
-
-  @media screen and (max-width: 768px){
-    padding: 60px;
-  }
-
-  @media screen and (max-width: 425px){
-    padding: 60px 40px;
-  }
 `
 
 export const MaxWidth = styled.div`
   max-width: 1400px;
   width: 100%;
   height: 100%;
+  margin: 0 60px;
   display: flex;
   align-items: center;
   justify-content: ${(props) => props.$justify};
@@ -44,7 +37,11 @@ export const MaxWidth = styled.div`
   }
 
   @media screen and (max-width: 768px){
-    flex-direction: column;
+    flex-direction: ${(props) => props.$header ? "row" : "column"};
+  }
+
+  @media screen and (max-width: 500px){
+    margin: 0 40px;
   }
 `
 
