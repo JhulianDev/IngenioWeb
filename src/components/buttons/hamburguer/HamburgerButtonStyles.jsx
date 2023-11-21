@@ -76,7 +76,7 @@ export const HamburgerInner = styled.span`
     width: 2rem;
     height: 4px;
     background-color: ${colors.colorPrincipal};
-    border-radius: 0.25rem;
+    border-radius: 100px;
     position: absolute;
     transition-property: transform;
     transition-duration: 0.15s;
