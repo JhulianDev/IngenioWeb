@@ -1,4 +1,4 @@
-const { createBrowserRouter } = require("react-router-dom");
+import { createBrowserRouter } from 'react-router-dom';
 import App from '../components/App';
 import Error404 from '../components/error/Error404';
 import Header from '../components/header/Header';
