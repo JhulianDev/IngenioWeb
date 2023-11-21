@@ -1,7 +1,7 @@
-import { MaxWidth, Section } from "../../assets/styles/generalStyles";
+import { MaxWidth, Section } from "../../../assets/styles/generalStyles";
 import { BoxTexts, Image, Paragraph, Span, Title, Trazo } from "./PortadaStyles";
-import IMAGEN_PORTADA from "../../assets/img/Portada.png"
-import IMAGEN_TRAZO_A from "../../assets/img/Trazo-A.svg"
+import IMAGEN_PORTADA from "../../../assets/img/Portada.png"
+import IMAGEN_TRAZO_A from "../../../assets/img/Trazo-A.svg"
 
 const Portada = () => {
   return (

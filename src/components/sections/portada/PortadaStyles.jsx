@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { fonts } from "../../assets/fonts/FontsHandler";
-import { colors } from "../../assets/colors/Colors";
+import { fonts } from "../../../assets/fonts/FontsHandler";
+import { colors } from "../../../assets/colors/Colors";
 
 export const BoxTexts = styled.div`
   color: ${colors.colorSecundario};
