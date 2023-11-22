@@ -2,46 +2,55 @@ import styled, { css } from "styled-components";
 import { fonts } from "../fonts/FontsHandler";
 
 export const Section = styled.section`
+  background-color: ${(props) => props.$bgColor};
+  min-height: ${(props) => props.$height || "100vh"};
+  padding: ${(props) => props.$portada ? "0 60px" : "60px"};
   width: 100%;
-  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: ${(props) => props.$bgColor};
-  padding: 60px 0;
   overflow: hidden;
 
   ${(props) => props.$portada && css`
     background: rgb(220,220,221);
     background: linear-gradient(180deg, rgba(220,220,221,1) 0%, rgba(220,220,221,1) 54%, 
     rgba(208,208,210,1) 62%, rgba(208,208,210,1) 73%, rgba(244,244,244,1) 88%);
+    padding: 0 60px;
   `}
-`
-
-export const MaxWidth = styled.div`
-  max-width: 1400px;
-  width: 100%;
-  height: 100%;
-  margin: 0 60px;
-  display: flex;
-  align-items: center;
-  justify-content: ${(props) => props.$justify};
-  position: relative;
 
   @media screen and (max-width: 1800px){
-    max-width: 1300px;
+    padding: ${(props) => props.$portada ? "0 120px" : "60px 120px"};
   }
 
   @media screen and (max-width: 1440px){
-    max-width: 1050px;
+    padding: ${(props) => props.$portada ? "0 100px" : "60px 100px"};
+  }
+
+  @media screen and (max-width: 1024px){
+    padding: ${(props) => props.$portada ? "0 70px" : "60px 70px"};
   }
 
   @media screen and (max-width: 768px){
-    flex-direction: ${(props) => props.$header ? "row" : "column"};
+    padding: ${(props) => props.$portada ? "0 50px" : "60px 50px"};
   }
 
-  @media screen and (max-width: 500px){
-    margin: 0 40px;
+  @media screen and (max-width: 425px){
+    padding: ${(props) => props.$portada ? "0 30px" : "60px 30px"};
+  }
+`
+
+export const MaxWidth = styled.div`
+  max-width: 1500px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+
+  @media screen and (max-width: 768px){
+    flex-direction: ${(props) => props.$header ? "row" : "column"};
+    gap: 40px;
   }
 `
 

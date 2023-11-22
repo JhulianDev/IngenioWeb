@@ -17,6 +17,10 @@ export const BoxTexts = styled.div`
   @media screen and (max-width: 1800px){
     margin-top: -30px;
   }
+
+  @media screen and (max-width: 768px){
+    margin-top: 60px;
+  }
 `
 
 export const Title = styled.h1`
@@ -135,9 +139,10 @@ export const Image = styled.img`
   @media screen and (max-width: 768px){
     width: 90%;
     margin-top: 40px;
+    margin-bottom: 60px;
   }
 
-  @media screen and (max-width: 425px){
+  @media screen and (max-width: 500px){
     width: 110%;
     margin-top: 40px;
   }
