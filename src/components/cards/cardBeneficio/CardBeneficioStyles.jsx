@@ -6,7 +6,7 @@ export const BoxCard = styled.div`
   align-items: center;
   justify-content: center;
   border: 2px solid white;
-  border-radius: 18px;
+  border-radius: 12px;
   padding: 30px 40px;
   gap: 20px;
 
@@ -17,7 +17,6 @@ export const BoxCard = styled.div`
   @media screen and (max-width: 1440px){
     padding: 20px 30px;
     gap: 15px;
-    border-radius: 12px;
   }
 
   @media screen and (max-width: 1200px){
