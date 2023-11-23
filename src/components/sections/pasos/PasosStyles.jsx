@@ -9,9 +9,13 @@ export const BoxSteps = styled.div`
   margin-top: 80px;
   gap: 80px;
 
+  @media screen and (max-width: 1800px){
+    margin-top: 70px;
+    gap: 60px;
+  }
+
   @media screen and (max-width: 1440px){
     margin-top: 60px;
-    gap: 60px;
   }
 
   @media screen and (max-width: 1024px){
