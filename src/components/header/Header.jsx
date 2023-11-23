@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Outlet } from 'react-router-dom';
-import { MaxWidth } from '../../assets/styles/generalStyles';
+import { MaxWidth } from '../../assets/styles/GeneralStyles';
 import { HeaderContainer, Logo } from './HeaderStyles';
-import ISOTIPO from '../../assets/img/isotipo.png'
+import ISOTIPO from '../../assets/img/Isotipo-Purple.svg'
 import HamburgerButton from '../buttons/hamburguer/HamburgerButton';
 
 const Header = () => {
