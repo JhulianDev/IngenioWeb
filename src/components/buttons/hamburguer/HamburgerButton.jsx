@@ -3,7 +3,7 @@ import { Button, HamburgerBox, HamburgerContainer, HamburgerInner } from "./Hamb
 const HamburgerButton = ({$open, showNav}) => {
   return (
     <HamburgerContainer>
-      <Button onClick={showNav}>
+      <Button onClick={showNav} aria-label="Menú de navegación">
         <HamburgerBox>
           <HamburgerInner $open={$open}></HamburgerInner>
         </HamburgerBox>
