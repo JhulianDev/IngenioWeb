@@ -1,5 +1,6 @@
 import styled, { css } from "styled-components";
 import { fonts } from "../fonts/FontsHandler";
+import { colors } from "../colors/Colors";
 
 export const Section = styled.section`
   background-color: ${(props) => props.$bgColor};
@@ -7,7 +8,7 @@ export const Section = styled.section`
   padding: ${(props) => props.$portada ? "0 60px" : "60px"};
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: ${(props) => props.$align || "center"};
   justify-content: center;
   overflow: hidden;
 
@@ -44,6 +45,7 @@ export const MaxWidth = styled.div`
   width: 100%;
   height: 100%;
   display: flex;
+  flex-direction: ${(props) => props.$column ? "column" : "row"};
   align-items: center;
   justify-content: space-between;
   position: relative;
@@ -56,8 +58,55 @@ export const MaxWidth = styled.div`
 
 export const TitleSection = styled.h1`
   font-family: ${fonts.MainTypography};
+  color: ${colors.colorSecundario};
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+  @media screen and (max-width: 1800px){
+    margin-top: 10px;
+  }
+
+  @media screen and (max-width: 1440px){
+    font-size: 2.8rem;
+    margin-top: 0px;
+  }
+
+  @media screen and (max-width: 768px){
+    font-size: 2.5rem;
+  }
+
+  @media screen and (max-width: 425px){
+    font-size: 2rem;
+  }
+
+  @media screen and (max-width: 375px){
+    font-size: 1.6rem;
+  }
 `
 
 export const SubtitleSection = styled.h2`
   font-family: ${fonts.MainTypography};
+  color: ${colors.colorSecundario};
+  font-size: 2.2rem;
+  font-weight: 400;
+  text-align: center;
+
+  @media screen and (max-width: 1440px){
+    font-size: 2rem;
+  }
+
+  @media screen and (max-width: 768px){
+    font-size: 1.9rem;
+    margin-top: -40px;
+  }
+
+  @media screen and (max-width: 425px){
+    font-size: 1.7rem;
+  }
+
+  @media screen and (max-width: 375px){
+    font-size: 1.5rem;
+  }
 `
