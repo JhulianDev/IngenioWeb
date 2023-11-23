@@ -1,6 +1,6 @@
-import { MaxWidth, Section } from "../../../assets/styles/generalStyles";
+import { MaxWidth, Section } from "../../../assets/styles/GeneralStyles";
 import { BoxTexts, Image, Paragraph, Span, Title, Trazo } from "./PortadaStyles";
-import IMAGEN_PORTADA from "../../../assets/img/Portada.png"
+import IMAGEN_PORTADA from "../../../assets/img/Portada.webp"
 import IMAGEN_TRAZO_A from "../../../assets/img/Trazo-A.svg"
 
 const Portada = () => {
@@ -25,10 +25,10 @@ const Portada = () => {
         </BoxTexts>
 
         <Image src={IMAGEN_PORTADA} alt="Chica usando laptop" />
-        <Trazo src={IMAGEN_TRAZO_A} />
+        <Trazo src={IMAGEN_TRAZO_A} alt="Trazo decorativo" />
 
       </MaxWidth>
-      <Trazo src={IMAGEN_TRAZO_A} $mobile />
+      <Trazo src={IMAGEN_TRAZO_A} alt="Trazo decorativo" $mobile />
     </Section>
   );
 };
