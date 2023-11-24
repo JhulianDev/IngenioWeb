@@ -58,19 +58,18 @@ export const MaxWidth = styled.div`
 
 export const TitleSection = styled.h1`
   font-family: ${fonts.MainTypography};
-  color: ${colors.colorSecundario};
+  color: ${(props) => props.$textColor || "white"};
   font-size: 3rem;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 10px;
 
   @media screen and (max-width: 1800px){
-    margin-top: 10px;
+    margin-top: 0px;
   }
 
   @media screen and (max-width: 1440px){
-    font-size: 2.8rem;
-    margin-top: 0px;
+    font-size: 2.6rem;
   }
 
   @media screen and (max-width: 768px){
@@ -88,7 +87,7 @@ export const TitleSection = styled.h1`
 
 export const SubtitleSection = styled.h2`
   font-family: ${fonts.MainTypography};
-  color: ${colors.colorSecundario};
+  color: ${(props) => props.$textColor || "white"};
   font-size: 2.2rem;
   font-weight: 400;
   text-align: center;

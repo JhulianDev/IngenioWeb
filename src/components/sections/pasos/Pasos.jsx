@@ -10,8 +10,8 @@ const Pasos = () => {
   return (
     <Section $align="flex-start">
       <MaxWidth $column>
-        <TitleSection>¿Cómo haremos tu web?</TitleSection>
-        <SubtitleSection>¡En 3 simples pasos!</SubtitleSection>
+        <TitleSection $textColor={colors.colorSecundario}>¿Cómo haremos tu web?</TitleSection>
+        <SubtitleSection $textColor={colors.colorSecundario}>¡En 3 simples pasos!</SubtitleSection>
 
         <BoxSteps>
 
