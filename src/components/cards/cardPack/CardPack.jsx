@@ -20,7 +20,7 @@ const CardPack = ({ price, currency, name, description, items, link }) => {
         ))}
       </List>
 
-      <Button to={link}>Lo Quiero</Button>
+      <Button to={link} target="_blank">Lo Quiero</Button>
     </CardBox>
   );
 };
