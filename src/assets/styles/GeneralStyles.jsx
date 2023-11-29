@@ -53,7 +53,7 @@ export const MaxWidth = styled.div`
   display: flex;
   flex-direction: ${(props) => props.$column ? "column" : "row"};
   align-items: center;
-  justify-content: space-between;
+  justify-content: ${(props) => props.$footer ? "center" : "space-between"};
   position: relative;
 
   @media screen and (max-width: 768px){
