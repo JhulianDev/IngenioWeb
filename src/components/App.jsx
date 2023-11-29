@@ -5,6 +5,7 @@ import Pasos from './sections/pasos/Pasos';
 import Equipo from './sections/equipo/Equipo';
 import Paquetes from './sections/paquetes/Paquetes';
 import Portfolio from './sections/portfolio/Portfolio';
+import Contacto from './sections/contacto/Contacto';
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <Equipo />
       <Paquetes />
       <Portfolio />
+      <Contacto />
     </>
   );
 };
