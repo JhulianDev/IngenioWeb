@@ -34,7 +34,7 @@ export const SliderMovil = styled.div`
 export const TouchSlider = styled.span`
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 76%;
   z-index: 1;
 `
 
