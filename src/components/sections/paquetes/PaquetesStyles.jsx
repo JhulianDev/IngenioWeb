@@ -49,7 +49,7 @@ export const BoxCircles = styled.div`
     margin-top: 0px;
   }
 
-  @media screen and (max-width: 764px){
+  @media screen and (max-width: 768px){
     margin-top: -40px;
     margin-bottom: -20px;
   }
