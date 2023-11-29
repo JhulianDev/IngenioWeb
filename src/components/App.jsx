@@ -4,6 +4,7 @@ import Beneficios from './sections/beneficios/Beneficios';
 import Pasos from './sections/pasos/Pasos';
 import Equipo from './sections/equipo/Equipo';
 import Paquetes from './sections/paquetes/Paquetes';
+import Portfolio from './sections/portfolio/Portfolio';
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <Pasos />
       <Equipo />
       <Paquetes />
+      <Portfolio />
     </>
   );
 };
