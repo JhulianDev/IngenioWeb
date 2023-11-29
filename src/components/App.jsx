@@ -6,6 +6,7 @@ import Equipo from './sections/equipo/Equipo';
 import Paquetes from './sections/paquetes/Paquetes';
 import Portfolio from './sections/portfolio/Portfolio';
 import Contacto from './sections/contacto/Contacto';
+import Footer from './footer/Footer';
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
       <Paquetes />
       <Portfolio />
       <Contacto />
+      <Footer />
     </>
   );
 };
