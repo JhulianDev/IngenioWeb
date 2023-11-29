@@ -32,7 +32,7 @@ const packs = [
   {
     name: "Mantenimiento",
     price: { ARS: "30.000", USD: "30", EUR: "27" },
-    description: "Mantener tu sitio web actualizado y funcional es escencial para el éxito en línea. Nuestro Pack de Mantenimiento Web garantiza la continuidad operativa, e impulsa tu presencia digital.",
+    description: "Mantener tu sitio web actualizado y funcional es escencial para el éxito en línea. Nuestro Pack de Mantenimiento Web garantiza la continuidad operativa y al dia.",
     items: [
       "· Copia de seguridad del sitio web",
       "· Mantenimiento del sitio web",
