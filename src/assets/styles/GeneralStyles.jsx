@@ -103,13 +103,17 @@ export const SubtitleSection = styled.h2`
   font-weight: 400;
   text-align: center;
 
+  @media screen and (max-width: 1800px){
+    font-size: ${(props) => props.$contacto ? "2rem": "2.2rem"};
+  }
+
   @media screen and (max-width: 1440px){
-    font-size: 2rem;
+    font-size: ${(props) => props.$contacto ? "1.7rem": "2rem"};
   }
 
   @media screen and (max-width: 768px){
     font-size: 1.9rem;
-    margin-top: -40px;
+    margin-top: ${(props) => props.$contacto ? "0": "-40px"};
   }
 
   @media screen and (max-width: 600px){
