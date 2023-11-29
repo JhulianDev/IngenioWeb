@@ -3,6 +3,7 @@ import Portada from './sections/portada/Portada';
 import Beneficios from './sections/beneficios/Beneficios';
 import Pasos from './sections/pasos/Pasos';
 import Equipo from './sections/equipo/Equipo';
+import Paquetes from './sections/paquetes/Paquetes';
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
       <Beneficios />
       <Pasos />
       <Equipo />
+      <Paquetes />
     </>
   );
 };
