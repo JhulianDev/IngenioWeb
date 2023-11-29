@@ -18,7 +18,7 @@ const Paquetes = () => {
   return (
     <>
       <Section $align="flex-start" $slider>
-        <MaxWidth $column $align="">
+        <MaxWidth $column>
           <TitleSection $textColor={colors.colorSecundario} $slider>Elige el pack ideal para tu proyecto</TitleSection>
           <SubtitleSection $textColor={colors.colorSecundario} $slider>Selecciona tu moneda local</SubtitleSection>
 
