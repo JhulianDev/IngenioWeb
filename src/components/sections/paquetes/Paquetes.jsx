@@ -35,7 +35,7 @@ const Paquetes = () => {
                   price={pack.price[currencySelected]}
                   description={pack.description}
                   items={pack.items}
-                  // link={}
+                  link={`https://api.whatsapp.com/send?phone=541124071361&text=Hola%20Ingenio!%20%F0%9F%91%8B%F0%9F%8F%BB%20Vengo%20de%20su%20pagina%20web%20%F0%9F%92%BB%20Estoy%20interesad@%20en%20el%20${encodeURIComponent(pack.name)}%20por%20${encodeURIComponent(pack.price[currencySelected])}%20${encodeURIComponent(currencySelected)}%20y%20quisiera%20obtener%20mas%20informaci%C3%B3n%20%F0%9F%AB%A3`}
                 />
               ))}
             </SliderMovil>
