@@ -1,6 +1,5 @@
 import styled, { css } from "styled-components";
 import { fonts } from "../fonts/FontsHandler";
-import { colors } from "../colors/Colors";
 
 export const Section = styled.section`
   background-color: ${(props) => props.$bgColor};
@@ -11,6 +10,7 @@ export const Section = styled.section`
   align-items: ${(props) => props.$align || "center"};
   justify-content: center;
   overflow: hidden;
+  position: relative;
 
   ${(props) => props.$portada && css`
     background: rgb(220,220,221);
@@ -35,8 +35,14 @@ export const Section = styled.section`
     padding: ${(props) => props.$portada ? "0 50px" : "60px 50px"};
   }
 
+  @media screen and (max-width: 600px){
+    padding: ${(props) => props.$slider && "60px 0px"};
+  }
+
   @media screen and (max-width: 425px){
-    padding: ${(props) => props.$portada ? "0 30px" : "60px 30px"};
+    padding: ${(props) => 
+      props.$portada ? "0 30px" : 
+      props.$slider ? "60px 0px" : "60px 30px"};
   }
 `
 
@@ -76,7 +82,12 @@ export const TitleSection = styled.h1`
     font-size: 2.5rem;
   }
 
+  @media screen and (max-width: 600px){
+    padding: ${(props) => props.$slider && "0px 50px"};
+  }
+
   @media screen and (max-width: 425px){
+    padding: ${(props) => props.$slider && "0px 30px"};
     font-size: 2rem;
   }
 
@@ -101,8 +112,13 @@ export const SubtitleSection = styled.h2`
     margin-top: -40px;
   }
 
+  @media screen and (max-width: 600px){
+    padding: ${(props) => props.$slider && "0px 50px"};
+  }
+
   @media screen and (max-width: 425px){
-    font-size: 1.7rem;
+    padding: ${(props) => props.$slider && "0px 30px"};
+    font-size: ${(props) => props.$slider ? "1.44rem" : "1.7rem"};
   }
 
   @media screen and (max-width: 375px){
