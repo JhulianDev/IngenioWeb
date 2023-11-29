@@ -13,7 +13,7 @@ const Header = () => {
       <HeaderContainer>
         <MaxWidth $justify='space-between' $header>
           <Logo src={ISOTIPO} alt='Isotipo IngenioWeb' />
-          <HamburgerButton $open={openNav} showNav={showNav} />
+          {/* <HamburgerButton $open={openNav} showNav={showNav} /> */}
         </MaxWidth>
       </HeaderContainer>
 
