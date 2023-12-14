@@ -397,14 +397,14 @@ b {
    ========================================================================== */
 
 body::-webkit-scrollbar {
-  background-color: #b16dab;
+  background-color: #ffffff;
   width: 13px;
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #88377e;
+  background-color: #224A99;
 }
 
 body::-webkit-scrollbar-thumb:hover {
-  background-color: #812276;
+  background-color: #123680;
 }
