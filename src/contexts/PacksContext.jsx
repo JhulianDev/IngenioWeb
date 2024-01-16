@@ -36,13 +36,13 @@ const packs = [
     price: { ARS: "50.000", USD: "50", EUR: "45" },
     description: "Mantener tu sitio web actualizado y funcional es escencial para el éxito en línea. Nuestro Pack de Mantenimiento Web garantiza la continuidad operativa de tu sitio web.",
     items: [
-      "· Copia de seguridad del sitio web",
-      "· Mantenimiento del sitio web",
-      "· Actualizacion de textos",
-      "· Actualizacion de imagenes",
-      "· Actualizacion de servicios",
-      "· Actualizacion de productos",
-      "· Adición de nuevas secciones"
+      "· Actualización de productos",
+      "· Actualización de servicios",
+      "· Actualización de imageness",
+      "· Actualización de textos",
+      "· Actualizaciones de seguirdad",
+      "· Optimización de velocidad",
+      "· Copia de seguridad del sitio web"
     ]
   }
 ]
