@@ -19,8 +19,8 @@ const Portada = () => {
             En tan solo
             <Span $typeC>15 Días</Span>
             <br />
-            <Span $typeC>Desde</Span>
-            <Span $typeB>80USD</Span>
+            <Span $typeC>desde</Span>
+            <Span $typeB>250USD</Span>
           </Paragraph>
         </BoxTexts>
 
