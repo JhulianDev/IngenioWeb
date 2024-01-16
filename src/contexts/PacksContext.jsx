@@ -3,35 +3,37 @@ import { createContext } from "react";
 const packs = [
   {
     name: "Pack Premium",
-    price: { ARS: "59.000", USD: "99", EUR: "89" },
-    description: "Ideal para presentar tu marca personal. Con una Landing Page o una web de 3 Páginas, puedes presentar de manera efectiva quién eres, qué haces y por qué deberían elegirte.",
+    price: { ARS: "250.000", USD: "250", EUR: "230" },
+    description: "Con una Landing Page, podras promocionar tu producto o servicio estrella, destacando sus beneficios, ventajas y captando el contacto de tus posibles clientes.",
     items: [
-      "· 1 Landing Page o 3 Paginas",
-      "· Formulario de contacto",
-      "· 3 Dias de Correciones Max",
-      "· Entrega de 5 a 10 Dias Hábiles",
+      "· 1 Landing Page",
+      "· Redacción de textos",
+      "· Selección de imagenes",
+      "· Entrega de 7 a 15 Días",
       "· Adaptable a todos los dispositivos",
       "· Dominio gratuito el primer año",
-      "· Hosting gratuito el primer año"
+      "· Hosting gratuito el primer año",
+      "· Optimizada para Google"
     ]
   },
   {
     name: "Pack Business",
-    price: { ARS: "119.000", USD: "139", EUR: "126" },
-    description: "Ideal si tienes una variedad de productos o servicios que deseas destacar. Con este pack, podras crear una web más extensa para presentar tus productos de forma detallada.",
+    price: { ARS: "350.000", USD: "350  ", EUR: "320" },
+    description: "Ideal para mostrar tú negocio de forma integral a través de secciones personalizadas, destacando cada aspecto y servicio de una forma mas detallada.",
     items: [
-      "· De 4 a 6 Paginas",
-      "· Formulario de contacto",
-      "· 7 Dias de Correciones Max",
-      "· Entrega de 7 a 15 Dias Hábiles",
+      "· 1 Página Web de 5 Pestañas",
+      "· Redacción de textos",
+      "· Selección de imagenes",
+      "· Entrega de 15 a 20 Dias",
       "· Adaptable a todos los dispositivos",
       "· Dominio gratuito el primer año",
-      "· Hosting gratuito el primer año"
+      "· Hosting gratuito el primer año",
+      "· Optimizada para Google"
     ]
   },
   {
     name: "Mantenimiento",
-    price: { ARS: "30.000", USD: "30", EUR: "27" },
+    price: { ARS: "50.000", USD: "50", EUR: "45" },
     description: "Mantener tu sitio web actualizado y funcional es escencial para el éxito en línea. Nuestro Pack de Mantenimiento Web garantiza la continuidad operativa de tu sitio web.",
     items: [
       "· Copia de seguridad del sitio web",
